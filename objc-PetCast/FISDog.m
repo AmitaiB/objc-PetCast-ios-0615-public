@@ -15,6 +15,6 @@
 }
 
 -(NSArray*)makeASound {
-    return @"Woof.";
+    return @"Woof!";
 }
 @end

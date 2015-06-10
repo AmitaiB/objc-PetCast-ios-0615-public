@@ -15,7 +15,7 @@
 }
 
 -(NSString*)eatSomething {
-    return @"Nom Nom Nom.";
+    return @"Nom nom nom.";
 }
 
 @end
