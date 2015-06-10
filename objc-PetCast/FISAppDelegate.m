@@ -13,6 +13,16 @@
 @implementation FISAppDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    FISDog *Rex = [[FISDog alloc] init];
+    
+    [(FISPet*)Rex makeASound];
+    
+    FISPet *Rock = [[FISPet alloc] init];
+    
+    [(FISDog*)Rock makeASound];
+    
+    
     return YES;
 }
 

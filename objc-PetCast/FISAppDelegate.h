@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 The Flatiron School. All rights reserved.
 //
 
+#import "FISDog.h"
+
 @interface FISAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
